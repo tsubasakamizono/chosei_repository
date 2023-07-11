@@ -22,7 +22,6 @@
 	<script src="/chosei/wp-content/themes/nagai/assets/script/main.js"></script>
 	<?php wp_head(); ?>
 </head>
-
 <body>
 	<header class="header">
 		<div class="header__inner">
