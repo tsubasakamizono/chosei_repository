@@ -1,0 +1,27 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+
+.hero__wrapper img {
+    left: 30%;
+}
+.header__logo {
+    width: 24px;
+    left: 80px;
+}
+.title_name {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.stmt {
+    font-size: 24px;
+}
+.pc_nav_ul {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+
+}

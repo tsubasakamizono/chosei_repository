@@ -1,0 +1,32 @@
+@import "../styles/breakpoints/_base";
+$cWhite: #f0f3f5;
+$cBlack: #2e2a2a;
+$cGray: #707070;
+$contentMaxWidth: 1070px;
+$cSubTitle: #535353;
+$cBgGray: rgb(238, 237, 237);
+$navHeight: 100px;
+
+
+@media (min-width: 320px) {
+  @import "../styles/breakpoints/_320up";
+}
+@media (min-width: 500px) {
+  @import "../styles/breakpoints/_500up";
+}
+@media (min-width: 700px) {
+  @import "../styles/breakpoints/_700up";
+}
+@media (min-width: 960px) {
+  @import "../styles/breakpoints/960up";
+}
+@media (min-width: 1024px) {
+  @import "../styles/breakpoints/_1024up";
+}
+@media (min-width: 1280px) {
+  @import "../styles/breakpoints/_1280up";
+}
+@media (min-width: 1400px) {
+  @import "../styles/breakpoints/_1400up";
+}
+

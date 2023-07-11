@@ -1,0 +1,130 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+#global__container {
+    padding: 0 100px;
+}
+//front__header
+.front__header {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+        display: none;
+        pointer-events: none;
+    }
+}
+
+
+.front__header #front__logo {
+    display: block;
+}
+.hero__wrapper img {
+    left: 30%;
+}
+.stmt {
+    font-size: 1.8em;
+    letter-spacing: 0.06em;
+    line-height: 1.3em;
+}
+.title_name {
+    font-size: 28px;
+}
+.pc_nav_ul {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.menu__toggle {
+    display: none;
+}
+.title_name {
+    display: none;
+}
+//pc__menu
+.pc_nav_box {
+    padding-top: 40px;
+}
+.nav.show {
+    display: none;
+}
+
+.pc_nav_li.current a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.pc_nav_ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.pc_nav_ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: 0.4s;
+}
+
+.pc_nav_ul li:hover a::after {
+    width: 100%;
+}
+
+//about
+.company {
+    &__text {
+        flex-basis: calc(67%);
+        font-size: 0.9em;
+    }
+    &__img {
+        flex-basis: calc(40% - 5%);
+        margin-top: 10px;
+    }
+}
+.profile__text {
+    font-size: 0.9em;
+}
+
+
+//contact
+.info__img {
+    display: none;
+}
+//front-page.php
+#front__footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0px 60px 0px 60px;
+    display: block;
+}
+.front__footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__container,
+.js-scrollable {
+    display: none;
+    pointer-events: none;
+}
+

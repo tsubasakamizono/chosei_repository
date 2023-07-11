@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*
+Theme Name: CHOUSEI_ver5
+Theme URI: https://example.com/my-theme/
+Author: CHOUSEI
+Author URI: https://example.com/
+Description: A simple and clean WordPress themes.
+Version: 1.0
+*/
+a:link {
+    color: #0553e5 !important;
+}

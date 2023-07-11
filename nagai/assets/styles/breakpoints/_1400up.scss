@@ -1,0 +1,35 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+
+.hero__wrapper img {
+    left: 30%;
+}
+.header__logo {
+    width: 24px;
+    left: 80px;
+}
+.title_name {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.stmt {
+    font-size: 24px;
+}
+.projects__container {
+    flex: 1 1 calc(30% - 10px);
+    margin: 0 30px 60px 0;
+    max-width: 430px;
+    transition: opacity 1s; /* ホバー時のトランジションの設定 */
+  }
+  .projects__thumbnail img {
+    transition: opacity 1s; /* ホバー時のトランジションの設定 */
+    
+  }
+  .projects__container:hover .projects__thumbnail img {
+    opacity: 0.5; /* サムネイル画像が透明度を変更して暗くなる効果を追加 */
+
+  }
+  

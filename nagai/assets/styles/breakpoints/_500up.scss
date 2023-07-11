@@ -1,0 +1,68 @@
+/******************************************************************
+
+Stylesheet: 500px以上のタブレットやモニタで適用
+
+******************************************************************/
+//header.php
+
+//top
+#global__container {
+    max-width: 1800px;
+}
+.js-scrollable {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.hero {
+    &__container {
+        position: relative;
+    }
+    &__text {
+        text-align: left;
+    }
+}
+
+.title_name {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#container {
+    text-align: center;
+}
+.hero__wrapper img {
+    left: 20%;
+}
+
+//about
+#company__container {
+    text-align: left;
+}
+.company__img {
+    text-align: center;
+}
+//page service
+.profile__text {
+    font-size: 20px;
+}
+.company__text {
+    font-size: 16px;
+}
+.projects__box {
+    text-align: left;
+}
+
+//archive-works.php//
+.projects {
+    &__thumnail {
+        max-width: 360px;
+        display: block;
+    }
+    &__list {
+        flex: 1;
+        max-width: 420px;
+    }
+}
